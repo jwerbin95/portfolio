@@ -1,33 +1,61 @@
-.App {
+.cards{
+  padding: 7%;
+  padding-top: 1.5%;
+}
+
+body{
+  background-color: #eaeef2;
+}
+
+.title{
+  padding: 0.5%;
+  color: #eaeef2;
+  margin: 2% auto;
   text-align: center;
+  border: solid 1px;
+  border-radius: 10px;
+  width: 15%;
+  font-size: 1.5em;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.myPic{
+  border: solid white 4px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.aboutMe, .contact{
+  font-family: 'Bitter', serif;
+  font-size: 20px;
+  padding-bottom: 10%;
+}
+
+.heading{
+  font-family: 'Anton', sans-serif;
+}
+
+.me{
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.projects{
+  font-size: 2em;
+  margin-bottom: 2%;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.contactHead{
+  text-align: center;
+}
+.spacer{
+  padding: 0 1em 0 1em;
+}
+.contact{
+  color: white;
+  padding: 0 0 0 4em;
+}
+header{
+  margin-bottom: 4%; 
+  padding-top: 5%;
+  padding-bottom: 1%;
+  background-image: url("/images/headerBG.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
