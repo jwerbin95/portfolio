@@ -8,7 +8,7 @@ export default class MainContainer extends Component{
 		return(
 			<div class="ui fluid container">
 				<header>
-					<img src="/images/me.jpg" class="myPic ui small centered circular image" alt="Jacob Werbin"/>
+					<img src="/images/Me.jpg" class="myPic ui small centered circular image" alt="Jacob Werbin"/>
 					<div class="title">
 						<div class="ui huge center aligned header">
 							<span className="heading me">Jacob Werbin</span>

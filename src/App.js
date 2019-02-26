@@ -11,7 +11,6 @@ class App extends Component {
       <div className="main">
         <BrowserRouter>
           <div>
-            <Route path="/" component={MainContainer}/>
             <Route path="/home" component={MainContainer}/>
           </div>
         </BrowserRouter>

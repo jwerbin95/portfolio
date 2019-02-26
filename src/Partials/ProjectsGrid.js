@@ -19,7 +19,7 @@ export default class ProjectsGrid extends Component{
 							Tetris built using HTML5 canvas and Javascript.
 						</div>
 					</div>
-					<a className="ui button" href="/projects/Game_Project/index.html">Check It Out!</a>
+					<a className="ui button" href="projects/Game_Project/index.html">Check It Out!</a>
 				</div>
 				<div className="ui raised card">
 					<div className="ui fade reveal">
