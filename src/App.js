@@ -8,13 +8,7 @@ import MainContainer from './MainContainer/MainContainer'
 class App extends Component {
   render() {
     return (
-      <div className="main">
-        <BrowserRouter>
-          <div>
-            <Route path="/home" component={MainContainer}/>
-          </div>
-        </BrowserRouter>
-      </div>
+      <MainContainer />
     );
   }
 }
